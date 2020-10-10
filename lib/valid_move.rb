@@ -7,13 +7,13 @@ def valid_move?(board, index)
   if index == (index).between?(0, 8)
     false
     
-  return !position_taken(board, index)
+  !position_taken(board, index)
     
   end
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 
 def position_taken?(board, index)
-  return board[index] == "X" || board[index] == "O"
+  board[index] == "X" || board[index] == "O"
 end
     
