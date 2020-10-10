@@ -1,11 +1,14 @@
 # code your #valid_move? method here
 
+#board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+#index = 4
+
 def valid_move?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil
     return true
   end
   
-  if index == (index).between?(0, 8)
+  if index != (index).between?(0, 8)
     return false
   end
   
