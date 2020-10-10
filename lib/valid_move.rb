@@ -3,7 +3,7 @@
 #board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 #index = 100
 
-def position_taken?(board, index)
+def position_taken(board, index)
   return board[index] == "X" || board[index] == "O"
 end
 
