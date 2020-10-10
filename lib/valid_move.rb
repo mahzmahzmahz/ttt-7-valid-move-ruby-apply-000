@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 
-#board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-#index = 4
+#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+#index = 100
 
 def position_taken?(board, index)
   return board[index] == "X" || board[index] == "O"
